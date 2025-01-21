@@ -169,6 +169,9 @@ import:
 
   # Preflights =================================================================
 
+  # Update XML (this is used for the automated ToC in the schematic)
+  - file: kibot_pre_update_xml.yaml
+
   # Set text variables
   - file: kibot_pre_set_text_variables.yaml
     definitions:
@@ -379,7 +382,7 @@ import:
       DIR: @IMAGES_DIR@
       SUFFIX: top
       VIEW: top
-      KEY_COLOR: @KEY_COLOR@
+      KEY_COLOR: '@KEY_COLOR@'
 
   - file: kibot_out_png_3d_viewer.yaml
     definitions:
@@ -388,7 +391,7 @@ import:
       DIR: @IMAGES_DIR@
       SUFFIX: bottom
       VIEW: bottom
-      KEY_COLOR: @KEY_COLOR@
+      KEY_COLOR: '@KEY_COLOR@'
 
   - file: kibot_out_png_3d_viewer.yaml
     definitions:
@@ -401,7 +404,7 @@ import:
       ROTATE_Y: @3D_VIEWER_ROT_Y@
       ROTATE_Z: @3D_VIEWER_ROT_Z@
       ZOOM: @3D_VIEWER_ZOOM@
-      KEY_COLOR: @KEY_COLOR@
+      KEY_COLOR: '@KEY_COLOR@'
 
   - file: kibot_out_png_3d_viewer.yaml
     definitions:
@@ -414,7 +417,7 @@ import:
       ROTATE_Y: @3D_VIEWER_ROT_Y@
       ROTATE_Z: -@3D_VIEWER_ROT_Z@
       ZOOM: @3D_VIEWER_ZOOM@
-      KEY_COLOR: @KEY_COLOR@
+      KEY_COLOR: '@KEY_COLOR@'
 
   # STEP file ------------------------------------------------------------------
   - file: kibot_out_step.yaml

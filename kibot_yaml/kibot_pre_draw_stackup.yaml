@@ -5,7 +5,6 @@ kibot:
   version: 1
 
 preflight:
-  update_xml: true
   draw_fancy_stackup:
     gerber: '@GERBER_OUTPUT@'
     gerber_extension_only: True

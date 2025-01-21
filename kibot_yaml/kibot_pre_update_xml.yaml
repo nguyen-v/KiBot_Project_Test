@@ -1,0 +1,8 @@
+# KiBot preflight for Update XML feature
+# https://kibot.readthedocs.io/en/latest/configuration/preflights/update_xml.html
+
+kibot:
+  version: 1
+
+preflight:
+  update_xml: true
