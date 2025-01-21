@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/KiBot_Project_Test.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 8.0.8+1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">Random Board</textvar>
+    <textvar name="COMPANY">Company</textvar>
+    <textvar name="DESIGNER">Vincent Nguyen</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">dd657ee</textvar>
+    <textvar name="GIT_HASH_SCH">9e59ee6</textvar>
+    <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
+    <textvar name="PROJECT_NAME">KiBot Project Test</textvar>
+    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">21-Jan-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-01-21</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">......................................</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
+    <textvar name="SHEET_NAME_12">......................................</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">MCU</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">IMU</textvar>
+    <textvar name="SHEET_NAME_6">Connectors</textvar>
+    <textvar name="SHEET_NAME_7">Revision History</textvar>
+    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>KiBot_Project_Test.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
+      <title_block>
+        <title>Block Diagram</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Block Diagram.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+      <title_block>
+        <title>Project Architecture</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
+      <title_block>
+        <title>MCU</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>MCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/">
+      <title_block>
+        <title>IMU</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>IMU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/">
+      <title_block>
+        <title>Connectors</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date/>
+        <source>Connectors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>Revision History</title>
+        <company>Company</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>69061980-b387-4a75-b6da-7a1d6abd31dc</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>2e43161c-68dc-4505-9c85-d5b7b5774a4c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>5f16c504-efb9-428c-83e0-1617c52b617c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u X7R 10V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf</datasheet>
+      <description>1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-GRM155Z71A105KE01JCT-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155Z71A105KE01J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf</field>
+        <field name="Description">1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-GRM155Z71A105KE01JCT-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155Z71A105KE01J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>2a207797-9ac8-44c6-8e9d-44f192d13b4f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4u7 X5R 25V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/CM_Series_e-2835982.pdf</datasheet>
+      <description>4.7 µF ±20% 25V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">581-CM05X5R475M25AH</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part Number">CM05X5R475M25AH</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://www.mouser.ch/datasheet/2/40/CM_Series_e-2835982.pdf</field>
+        <field name="Description">4.7 µF ±20% 25V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Supplier 1" value="Mouser"/>
+      <property name="Supplier Part Number 1" value="581-CM05X5R475M25AH"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part Number" value="CM05X5R475M25AH"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>14a06cb4-9288-4787-95b1-6f3c2fdeb18b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>666f51ee-1eae-4884-92f0-9e517ed4a706</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1u X7R 10V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf</datasheet>
+      <description>1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-GRM155Z71A105KE01JCT-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155Z71A105KE01J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf</field>
+        <field name="Description">1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-GRM155Z71A105KE01JCT-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155Z71A105KE01J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>e1ea42c9-81da-430f-b8ab-9a7da8f4834d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>3b9983a7-9b87-4c54-9c1f-aa2461a1ef21</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>763e72cd-d856-4045-9b7f-48be59744618</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">P2.00KLCT-ND</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">ERJ-2RKF2001X</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="P2.00KLCT-ND"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="ERJ-2RKF2001X"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>638a40d9-3506-4f6f-9080-eabeb502e4cb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">P2.00KLCT-ND</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">ERJ-2RKF2001X</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="P2.00KLCT-ND"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="ERJ-2RKF2001X"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>0ede8ed8-ae16-41fd-ac27-996b7ecd9e63</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G474RET3</value>
+      <footprint>0_package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32g474re.pdf</datasheet>
+      <description>Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">497-STM32G474RET3-ND</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">STM32G474RET3</field>
+        <field name="Footprint">0_package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</field>
+        <field name="Description">Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</field>
+      </fields>
+      <libsource lib="0_mcu" part="STM32G474RETx" description="STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="Arm Cortex-M4 STM32G4 STM32G4x4"/>
+      <property name="ki_fp_filters" value="QFN*1EP*7x7mm*P0.5mm*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>82f9ede2-bfd8-4c71-ba65-c790800e7095 425de6be-fd96-4487-88e9-a8ae1f9ad610</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>488b4e6a-256e-4f58-bca2-64716aecca4b</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>4b026048-7ee3-441a-8bb0-f3e640aeda95</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>3.9pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf</datasheet>
+      <fields>
+        <field name="Supplier Part Number 1">712-1401-1-ND</field>
+        <field name="Manufacturer Part Number">500R07S3R9BV4T</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier Part Number 1" value="712-1401-1-ND"/>
+      <property name="Manufacturer Part Number" value="500R07S3R9BV4T"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>1e08ba89-9810-483e-8493-1f1a1e52b076</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>3.9pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf</datasheet>
+      <fields>
+        <field name="Supplier Part Number 1">712-1401-1-ND</field>
+        <field name="Manufacturer Part Number">500R07S3R9BV4T</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier Part Number 1" value="712-1401-1-ND"/>
+      <property name="Manufacturer Part Number" value="500R07S3R9BV4T"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>b7918570-4446-43f5-a225-d81da57136b2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <description>10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">YAG1233CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RT0402FRE0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="YAG1233CT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RT0402FRE0710KL"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>476a1a08-31ca-4437-9f00-7c73fc8096a6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <description>10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">YAG1233CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RT0402FRE0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="YAG1233CT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RT0402FRE0710KL"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>71b4d1e2-86b9-4fb8-8e9d-1fbc9309212d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <description>10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">YAG1233CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RT0402FRE0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="YAG1233CT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RT0402FRE0710KL"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>0e193f16-f5db-4ba3-b3c4-9b1da1ea1659</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k 1%</value>
+      <footprint>0_resistor_smd:R_0402_1005_DensityHigh</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <description>10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">YAG1233CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RT0402FRE0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_resistor_smd:R_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="YAG1233CT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RT0402FRE0710KL"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>24e4b1a5-3852-4568-b0f0-8aec38c04577</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BNO055</value>
+      <footprint>Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</datasheet>
+      <description>Intelligent 9-axis absolute orientation sensor, LGA-28</description>
+      <fields>
+        <field name="Footprint">Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</field>
+        <field name="Description">Intelligent 9-axis absolute orientation sensor, LGA-28</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="BNO055" description="Intelligent 9-axis absolute orientation sensor, LGA-28"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="IMU Sensor Fusion I2C UART"/>
+      <property name="ki_fp_filters" value="LGA*5.2x3.8mm*P0.5mm*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>837beebb-f53b-4b48-99b1-c50a8825405c</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ECS-.327-7-12-C-TR9</value>
+      <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ECX_12.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer ref">ECS-.327-7-12-C-TR9</field>
+        <field name="Digikey ref">50-ECS-.327-7-12-C-TR9CT-ND</field>
+        <field name="Footprint">Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ECX_12.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Manufacturer ref" value="ECS-.327-7-12-C-TR9"/>
+      <property name="Digikey ref" value="50-ECS-.327-7-12-C-TR9CT-ND"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>f7432467-6bfe-4834-841f-071ec77412e0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>95b74575-b0ee-422d-b46a-0b87d492ba07</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>da26d043-b4a4-4077-9108-f62fe44f1d72</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1u X7R 25V</value>
+      <footprint>0_capacitor_smd:C_0603_1608_DensityHigh</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf</datasheet>
+      <description>1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">587-3467-1-ND</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">TMK107AB7105KAHT</field>
+        <field name="Package">0603</field>
+        <field name="Footprint">0_capacitor_smd:C_0603_1608_DensityHigh</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf</field>
+        <field name="Description">1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="587-3467-1-ND"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer Part Number" value="TMK107AB7105KAHT"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>26ffa78b-072c-42c9-b7b3-fc017e9de9a4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10n X7R 100V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf</datasheet>
+      <description>10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">587-HMR105B7103KV-FCT-ND</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">HMR105B7103KV-F</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf</field>
+        <field name="Description">10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="587-HMR105B7103KV-FCT-ND"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer Part Number" value="HMR105B7103KV-F"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>6ca4b198-e185-43ed-b50a-862769dc47e6</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>4u7 X7R 16V</value>
+      <footprint>0_capacitor_smd:C_0603_1608_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf</datasheet>
+      <description>4.7 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-GRM188Z71C475KE21JCT-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188Z71C475KE21J</field>
+        <field name="Package">0603</field>
+        <field name="Footprint">0_capacitor_smd:C_0603_1608_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf</field>
+        <field name="Description">4.7 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-GRM188Z71C475KE21JCT-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188Z71C475KE21J"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>cbcda12c-18cb-40d0-ba76-dc13e4317768</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SM05B-GHS-TB</value>
+      <footprint>0_connectors:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</datasheet>
+      <description>Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">455-SM05B-GHS-TBCT-ND</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">SM05B-GHS-TB</field>
+        <field name="Footprint">0_connectors:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</field>
+        <field name="Description">Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="455-SM05B-GHS-TBCT-ND"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="SM05B-GHS-TB"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>3b0f729a-ec93-47f2-af7a-2c5097523fc8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>S2B-PH-SM4-TB</value>
+      <footprint>0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <description>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number">455-S2B-PH-SM4-TBCT-ND</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">S2B-PH-SM4-TB</field>
+        <field name="Footprint">0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Description">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number" value="455-S2B-PH-SM4-TBCT-ND"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="S2B-PH-SM4-TB"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>b2a38aa0-85de-46a0-bd65-63f9a9348315</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LP2992IM5-3.3/NOPB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lp2992.pdf</datasheet>
+      <description>Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lp2992.pdf</field>
+        <field name="Description">Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</field>
+      </fields>
+      <libsource lib="0_linear_regulator" part="LP2992IM5-3.3/NOPB" description="Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="LDO Voltage Regulator "/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>8cb0fda8-f0cc-4340-b8ee-130b23cab7cb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_linear_regulator" part="LP2992IM5-3.3/NOPB">
+      <description>Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lp2992.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2992IM5-3.3/NOPB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lp2992.pdf</field>
+        <field name="Description">Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON/~{OFF}" type="input"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_mcu" part="STM32G474RETx">
+      <description>STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32g474re.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G474RETx</field>
+        <field name="Footprint">0_package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</field>
+        <field name="Description">STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PF0" type="bidirectional"/>
+        <pin num="6" name="PF1" type="bidirectional"/>
+        <pin num="7" name="PG10" type="bidirectional"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="PA0" type="bidirectional"/>
+        <pin num="13" name="PA1" type="bidirectional"/>
+        <pin num="14" name="PA2" type="bidirectional"/>
+        <pin num="15" name="VSS" type="power_in"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="PA4" type="bidirectional"/>
+        <pin num="19" name="PA5" type="bidirectional"/>
+        <pin num="20" name="PA6" type="bidirectional"/>
+        <pin num="21" name="PA7" type="bidirectional"/>
+        <pin num="22" name="PC4" type="bidirectional"/>
+        <pin num="23" name="PC5" type="bidirectional"/>
+        <pin num="24" name="PB0" type="bidirectional"/>
+        <pin num="25" name="PB1" type="bidirectional"/>
+        <pin num="26" name="PB2" type="bidirectional"/>
+        <pin num="27" name="VSSA" type="power_in"/>
+        <pin num="28" name="VREF+" type="input"/>
+        <pin num="29" name="VDDA" type="power_in"/>
+        <pin num="30" name="PB10" type="bidirectional"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB11" type="bidirectional"/>
+        <pin num="34" name="PB12" type="bidirectional"/>
+        <pin num="35" name="PB13" type="bidirectional"/>
+        <pin num="36" name="PB14" type="bidirectional"/>
+        <pin num="37" name="PB15" type="bidirectional"/>
+        <pin num="38" name="PC6" type="bidirectional"/>
+        <pin num="39" name="PC7" type="bidirectional"/>
+        <pin num="40" name="PC8" type="bidirectional"/>
+        <pin num="41" name="PC9" type="bidirectional"/>
+        <pin num="42" name="PA8" type="bidirectional"/>
+        <pin num="43" name="PA9" type="bidirectional"/>
+        <pin num="44" name="PA10" type="bidirectional"/>
+        <pin num="45" name="PA11" type="bidirectional"/>
+        <pin num="46" name="PA12" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA13" type="bidirectional"/>
+        <pin num="50" name="PA14" type="bidirectional"/>
+        <pin num="51" name="PA15" type="bidirectional"/>
+        <pin num="52" name="PC10" type="bidirectional"/>
+        <pin num="53" name="PC11" type="bidirectional"/>
+        <pin num="54" name="PC12" type="bidirectional"/>
+        <pin num="55" name="PD2" type="bidirectional"/>
+        <pin num="56" name="PB3" type="bidirectional"/>
+        <pin num="57" name="PB4" type="bidirectional"/>
+        <pin num="58" name="PB5" type="bidirectional"/>
+        <pin num="59" name="PB6" type="bidirectional"/>
+        <pin num="60" name="PB7" type="bidirectional"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Two pin crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="BNO055">
+      <description>Intelligent 9-axis absolute orientation sensor, LGA-28</description>
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</docs>
+      <footprints>
+        <fp>LGA*5.2x3.8mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BNO055</field>
+        <field name="Footprint">Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</field>
+        <field name="Description">Intelligent 9-axis absolute orientation sensor, LGA-28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="no_connect"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="~{BOOT_LOAD_PIN}" type="input"/>
+        <pin num="5" name="PS1" type="input"/>
+        <pin num="6" name="PS0" type="input"/>
+        <pin num="7" name="PIN7" type="no_connect"/>
+        <pin num="8" name="PIN8" type="no_connect"/>
+        <pin num="9" name="CAP" type="passive"/>
+        <pin num="10" name="BL_IND" type="output"/>
+        <pin num="11" name="~{RESET}" type="input"/>
+        <pin num="12" name="PIN12" type="no_connect"/>
+        <pin num="13" name="PIN13" type="no_connect"/>
+        <pin num="14" name="INT" type="output"/>
+        <pin num="15" name="GNDIO" type="power_in"/>
+        <pin num="16" name="GNDIO" type="passive"/>
+        <pin num="17" name="COM3" type="input"/>
+        <pin num="18" name="COM2" type="passive"/>
+        <pin num="19" name="COM1" type="bidirectional"/>
+        <pin num="20" name="COM0" type="bidirectional"/>
+        <pin num="21" name="PIN21" type="no_connect"/>
+        <pin num="22" name="PIN22" type="no_connect"/>
+        <pin num="23" name="PIN23" type="no_connect"/>
+        <pin num="24" name="PIN24" type="no_connect"/>
+        <pin num="25" name="GNDIO" type="passive"/>
+        <pin num="26" name="XOUT32" type="output"/>
+        <pin num="27" name="XIN32" type="input"/>
+        <pin num="28" name="VDDIO" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_linear_regulator">
+      <uri>/github/workspace/lib/lib_sym/0_linear_regulator.kicad_sym</uri>
+    </library>
+    <library logical="0_mcu">
+      <uri>/github/workspace/lib/lib_sym/0_mcu.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/usr/share/kicad/symbols//Sensor_Motion.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="VREF+" pintype="input"/>
+      <node ref="U1" pin="29" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="/Project Architecture/Connectors/NRST">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PG10" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Project Architecture/Connectors/SWCLK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Project Architecture/Connectors/SWDIO">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Project Architecture/IMU/BLP">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="~{BOOT_LOAD_PIN}" pintype="input"/>
+    </net>
+    <net code="7" name="/Project Architecture/IMU/CAP">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="CAP" pintype="passive"/>
+    </net>
+    <net code="8" name="/Project Architecture/IMU/COM3">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="COM3" pintype="input"/>
+    </net>
+    <net code="9" name="/Project Architecture/IMU/I2C2_SCL">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U3" pin="19" pinfunction="COM1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Project Architecture/IMU/I2C2_SDA">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U3" pin="20" pinfunction="COM0" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Project Architecture/IMU/IMU_INT">
+      <node ref="U1" pin="45" pinfunction="PA11" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="12" name="/Project Architecture/IMU/IMU_~{RESET}">
+      <node ref="U1" pin="44" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="13" name="/Project Architecture/IMU/PS0">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PS0" pintype="input"/>
+    </net>
+    <net code="14" name="/Project Architecture/IMU/PS1">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PS1" pintype="input"/>
+    </net>
+    <net code="15" name="/Project Architecture/IMU/XIN32">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="XIN32" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/Project Architecture/IMU/XOUT32">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="XOUT32" pintype="output"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="GNDIO" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="COM2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="25" pinfunction="GNDIO" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(U4-ADJ)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="20" name="VBUS">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="ON/~{OFF}" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U1B-PA0-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1B-PA1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1B-PA2-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1B-PA3-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1B-PA4-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1B-PA5-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1B-PA6-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1B-PA7-Pad21)">
+      <node ref="U1" pin="21" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1B-PA12-Pad46)">
+      <node ref="U1" pin="46" pinfunction="PA12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1B-PA15-Pad51)">
+      <node ref="U1" pin="51" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1B-PB0-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1B-PB1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1B-PB2-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1B-PB3-Pad56)">
+      <node ref="U1" pin="56" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1B-PB4-Pad57)">
+      <node ref="U1" pin="57" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1B-PB5-Pad58)">
+      <node ref="U1" pin="58" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1B-PB6-Pad59)">
+      <node ref="U1" pin="59" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1B-PB7-Pad60)">
+      <node ref="U1" pin="60" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1B-PB8-Pad61)">
+      <node ref="U1" pin="61" pinfunction="PB8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1B-PB9-Pad62)">
+      <node ref="U1" pin="62" pinfunction="PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1B-PB10-Pad30)">
+      <node ref="U1" pin="30" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1B-PB11-Pad33)">
+      <node ref="U1" pin="33" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1B-PB12-Pad34)">
+      <node ref="U1" pin="34" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1B-PB13-Pad35)">
+      <node ref="U1" pin="35" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1B-PB14-Pad36)">
+      <node ref="U1" pin="36" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1B-PB15-Pad37)">
+      <node ref="U1" pin="37" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1B-PC0-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1B-PC1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1B-PC2-Pad10)">
+      <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1B-PC3-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1B-PC4-Pad22)">
+      <node ref="U1" pin="22" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1B-PC5-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1B-PC6-Pad38)">
+      <node ref="U1" pin="38" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1B-PC7-Pad39)">
+      <node ref="U1" pin="39" pinfunction="PC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1B-PC8-Pad40)">
+      <node ref="U1" pin="40" pinfunction="PC8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1B-PC9-Pad41)">
+      <node ref="U1" pin="41" pinfunction="PC9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1B-PC10-Pad52)">
+      <node ref="U1" pin="52" pinfunction="PC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1B-PC11-Pad53)">
+      <node ref="U1" pin="53" pinfunction="PC11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1B-PC12-Pad54)">
+      <node ref="U1" pin="54" pinfunction="PC12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1B-PC13-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1B-PC14-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1B-PC15-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1B-PD2-Pad55)">
+      <node ref="U1" pin="55" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1B-PF0-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PF0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1B-PF1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PF1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-BL_IND-Pad10)">
+      <node ref="U3" pin="10" pinfunction="BL_IND" pintype="output+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-PIN1-Pad1)">
+      <node ref="U3" pin="1" pinfunction="PIN1" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-PIN7-Pad7)">
+      <node ref="U3" pin="7" pinfunction="PIN7" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-PIN8-Pad8)">
+      <node ref="U3" pin="8" pinfunction="PIN8" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-PIN12-Pad12)">
+      <node ref="U3" pin="12" pinfunction="PIN12" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-PIN13-Pad13)">
+      <node ref="U3" pin="13" pinfunction="PIN13" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U3-PIN21-Pad21)">
+      <node ref="U3" pin="21" pinfunction="PIN21" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3-PIN22-Pad22)">
+      <node ref="U3" pin="22" pinfunction="PIN22" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3-PIN23-Pad23)">
+      <node ref="U3" pin="23" pinfunction="PIN23" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-PIN24-Pad24)">
+      <node ref="U3" pin="24" pinfunction="PIN24" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
