@@ -1,0 +1,404 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: KiBot_Project_Test<br>
+   <b>Variant</b>: DRAFT<br>
+   <b>Revision</b>: + (Unreleased)<br>
+   <b>Date</b>: 2025-01-12<br>
+   <b>KiCad Version</b>: 8.0.8+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 15<br>
+   <b>Component Count</b>: 30 (per PCB)<br>
+
+   <b>Fitted Components</b>: 30 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 30 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Description</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">Manufacturer Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-gen0">1</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C13"></div><div id="C12"></div>C12 C13</td>
+   <td class="td-kicad0">3.9pF</td>
+   <td class="td-kicad0"><a href="https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf">https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf</a></td>
+   <td class="td-kicad0">C_0402_1005Metric</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-user0">500R07S3R9BV4T</td>
+  </tr>
+  <tr id="1">
+   <td class="td-gen1">2</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C17"></div>C17</td>
+   <td class="td-kicad1">10n X7R 100V</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf</a></td>
+   <td class="td-kicad1">C_0402_1005_DensityHigh</td>
+   <td class="td-user1">10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)</td>
+   <td class="td-user1">Taiyo Yuden</td>
+   <td class="td-user1">HMR105B7103KV-F</td>
+  </tr>
+  <tr id="2">
+   <td class="td-gen0">3</td>
+   <td class="td-gen0">10</td>
+   <td class="td-kicad0"><div id="C15"></div><div id="C14"></div><div id="C11"></div><div id="C10"></div><div id="C9"></div><div id="C8"></div><div id="C6"></div><div id="C3"></div><div id="C2"></div><div id="C1"></div>C1 C2 C3 C6 C8 C9 C10 C11 C14 C15</td>
+   <td class="td-kicad0">100n X7R 50V</td>
+   <td class="td-kicad0"><a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</a></td>
+   <td class="td-kicad0">C_0402_1005_DensityHigh</td>
+   <td class="td-user0">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</td>
+   <td class="td-user0">Murata Electronics</td>
+   <td class="td-user0">GCM155R71H104KE02J</td>
+  </tr>
+  <tr id="3">
+   <td class="td-gen1">4</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C16"></div>C16</td>
+   <td class="td-kicad1">1u X7R 25V</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608_DensityHigh</td>
+   <td class="td-user1">1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</td>
+   <td class="td-user1">Taiyo Yuden</td>
+   <td class="td-user1">TMK107AB7105KAHT</td>
+  </tr>
+  <tr id="4">
+   <td class="td-gen0">5</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C7"></div><div id="C4"></div>C4 C7</td>
+   <td class="td-kicad0">1u X7R 10V</td>
+   <td class="td-kicad0"><a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf</a></td>
+   <td class="td-kicad0">C_0402_1005_DensityHigh</td>
+   <td class="td-user0">1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)</td>
+   <td class="td-user0">Murata Electronics</td>
+   <td class="td-user0">GRM155Z71A105KE01J</td>
+  </tr>
+  <tr id="5">
+   <td class="td-gen1">6</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C18"></div>C18</td>
+   <td class="td-kicad1">4u7 X7R 16V</td>
+   <td class="td-kicad1"><a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608_DensityHigh</td>
+   <td class="td-user1">4.7 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)</td>
+   <td class="td-user1">Murata Electronics</td>
+   <td class="td-user1">GRM188Z71C475KE21J</td>
+  </tr>
+  <tr id="6">
+   <td class="td-gen0">7</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="C5"></div>C5</td>
+   <td class="td-kicad0">4u7 X5R 25V</td>
+   <td class="td-kicad0"><a href="https://www.mouser.ch/datasheet/2/40/CM_Series_e-2835982.pdf">https://www.mouser.ch/datasheet/2/40/CM_Series_e-2835982.pdf</a></td>
+   <td class="td-kicad0">C_0402_1005_DensityHigh</td>
+   <td class="td-user0">4.7 µF ±20% 25V Ceramic Capacitor X5R 0402 (1005 Metric)</td>
+   <td class="td-user0">KYOCERA AVX</td>
+   <td class="td-user0">CM05X5R475M25AH</td>
+  </tr>
+  <tr id="7">
+   <td class="td-gen1">8</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="J2"></div>J2</td>
+   <td class="td-kicad1">S2B-PH-SM4-TB</td>
+   <td class="td-kicad1"><a href="https://www.jst-mfg.com/product/pdf/eng/ePH.pdf">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</a></td>
+   <td class="td-kicad1">JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</td>
+   <td class="td-user1"><a href="https://www.jst-mfg.com/product/pdf/eng/ePH.pdf">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</a></td>
+   <td class="td-user1">JST Sales America Inc.</td>
+   <td class="td-user1">S2B-PH-SM4-TB</td>
+  </tr>
+  <tr id="8">
+   <td class="td-gen0">9</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="J1"></div>J1</td>
+   <td class="td-kicad0">SM05B-GHS-TB</td>
+   <td class="td-kicad0"><a href="https://www.jst-mfg.com/product/pdf/eng/eGH.pdf">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</a></td>
+   <td class="td-kicad0">JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal</td>
+   <td class="td-user0">Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)</td>
+   <td class="td-user0">JST Sales America Inc.</td>
+   <td class="td-user0">SM05B-GHS-TB</td>
+  </tr>
+  <tr id="9">
+   <td class="td-gen1">10</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R2"></div><div id="R1"></div>R1 R2</td>
+   <td class="td-kicad1">2k 1%</td>
+   <td class="td-kicad1"><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</a></td>
+   <td class="td-kicad1">R_0402_1005_DensityHigh</td>
+   <td class="td-user1">2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</td>
+   <td class="td-user1">Vishay</td>
+   <td class="td-user1">ERJ-2RKF2001X</td>
+  </tr>
+  <tr id="10">
+   <td class="td-gen0">11</td>
+   <td class="td-gen0">4</td>
+   <td class="td-kicad0"><div id="R6"></div><div id="R5"></div><div id="R4"></div><div id="R3"></div>R3 R4 R5 R6</td>
+   <td class="td-kicad0">10k 1%</td>
+   <td class="td-kicad0"><a href="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf">https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</a></td>
+   <td class="td-kicad0">R_0402_1005_DensityHigh</td>
+   <td class="td-user0">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</td>
+   <td class="td-user0">YAGEO</td>
+   <td class="td-user0">RT0402FRE0710KL</td>
+  </tr>
+  <tr id="11">
+   <td class="td-gen1">12</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U3"></div>U3</td>
+   <td class="td-kicad1">BNO055</td>
+   <td class="td-kicad1"><a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</a></td>
+   <td class="td-kicad1">LGA-28_5.2x3.8mm_P0.5mm</td>
+   <td class="td-user1">Intelligent 9-axis absolute orientation sensor, LGA-28</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="12">
+   <td class="td-gen0">13</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="U4"></div>U4</td>
+   <td class="td-kicad0">LP2992IM5-3.3/NOPB</td>
+   <td class="td-kicad0"><a href="https://www.ti.com/lit/ds/symlink/lp2992.pdf">https://www.ti.com/lit/ds/symlink/lp2992.pdf</a></td>
+   <td class="td-kicad0">SOT-23-5</td>
+   <td class="td-user0">Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="13">
+   <td class="td-gen1">14</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U1"></div>U1</td>
+   <td class="td-kicad1">STM32G474RET3</td>
+   <td class="td-kicad1"><a href="https://www.st.com/resource/en/datasheet/stm32g474re.pdf">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</a></td>
+   <td class="td-kicad1">LQFP-64_10x10mm_P0.5mm</td>
+   <td class="td-user1">STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen0">15</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Y1"></div>Y1</td>
+   <td class="td-kicad0">ECS-.327-7-12-C-TR9</td>
+   <td class="td-kicad0"><a href="https://ecsxtal.com/store/pdf/ECX_12.pdf">https://ecsxtal.com/store/pdf/ECX_12.pdf</a></td>
+   <td class="td-kicad0">Crystal_SMD_2012-2Pin_2.0x1.2mm</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+ </tbody>
+</table>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
