@@ -10,7 +10,6 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 9,1,J1,SM05B-GHS-TB,https://www.jst-mfg.com/product/pdf/eng/eGH.pdf,JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal,"Connector Header Surface Mount, Right Angle 5 position 0.049"" (1.25mm)",JST Sales America Inc.,SM05B-GHS-TB
 10,2,R1 R2,2k 1%,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,R_0402_1005_DensityHigh,"2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film",Vishay,ERJ-2RKF2001X
 11,4,R3 R4 R5 R6,10k 1%,https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf,R_0402_1005_DensityHigh,"10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film",YAGEO,RT0402FRE0710KL
-12,1,U3,BNO055,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf,LGA-28_5.2x3.8mm_P0.5mm,"Intelligent 9-axis absolute orientation sensor, LGA-28",,
-13,1,U4,LP2992IM5-3.3/NOPB,https://www.ti.com/lit/ds/symlink/lp2992.pdf,SOT-23-5,Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator,,
-14,1,U1,STM32G474RET3,https://www.st.com/resource/en/datasheet/stm32g474re.pdf,LQFP-64_10x10mm_P0.5mm,"STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64",,
-15,1,Y1,ECS-.327-7-12-C-TR9,https://ecsxtal.com/store/pdf/ECX_12.pdf,Crystal_SMD_2012-2Pin_2.0x1.2mm,,,
+12,1,U4,LP2992IM5-3.3/NOPB,https://www.ti.com/lit/ds/symlink/lp2992.pdf,SOT-23-5,Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator,,
+13,1,U1,STM32G474RET3,https://www.st.com/resource/en/datasheet/stm32g474re.pdf,LQFP-64_10x10mm_P0.5mm,"STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64",,
+14,1,Y1,ECS-.327-7-12-C-TR9,https://ecsxtal.com/store/pdf/ECX_12.pdf,Crystal_SMD_2012-2Pin_2.0x1.2mm,,,

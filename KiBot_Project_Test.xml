@@ -5,21 +5,21 @@
     <date>Date1</date>
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
-    <textvar name="BOARD_NAME">Random Board</textvar>
-    <textvar name="COMPANY">Company</textvar>
-    <textvar name="DESIGNER">Vincent Nguyen</textvar>
+    <textvar name="BOARD_NAME">Board Name</textvar>
+    <textvar name="COMPANY">Company Name</textvar>
+    <textvar name="DESIGNER">Author</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">dd657ee</textvar>
-    <textvar name="GIT_HASH_SCH">9e59ee6</textvar>
+    <textvar name="GIT_HASH_SCH">77e9e33</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
-    <textvar name="PROJECT_NAME">KiBot Project Test</textvar>
+    <textvar name="PROJECT_NAME">Project Name</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">21-Jan-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-01-21</textvar>
+    <textvar name="RELEASE_DATE">24-Jan-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -63,14 +63,14 @@
     <textvar name="SHEET_NAME_40">......................................</textvar>
     <textvar name="SHEET_NAME_5">IMU</textvar>
     <textvar name="SHEET_NAME_6">Connectors</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_7">Holes, Fiducials</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>KiBot_Project_Test.kicad_sch</source>
@@ -88,7 +88,7 @@
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Block Diagram</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
@@ -106,7 +106,7 @@
     <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
         <title>Project Architecture</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
@@ -124,7 +124,7 @@
     <sheet number="4" name="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
       <title_block>
         <title>MCU</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>MCU.kicad_sch</source>
@@ -142,7 +142,7 @@
     <sheet number="5" name="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/">
       <title_block>
         <title>IMU</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>IMU.kicad_sch</source>
@@ -160,7 +160,7 @@
     <sheet number="6" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/">
       <title_block>
         <title>Connectors</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date/>
         <source>Connectors.kicad_sch</source>
@@ -175,10 +175,28 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+    <sheet number="7" name="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/">
+      <title_block>
+        <title>Holes, Fiducials</title>
+        <company>Company Name</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Holes, Fiducials.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
-        <company>Company</company>
+        <company>Company Name</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
@@ -503,7 +521,7 @@
       <value>STM32G474RET3</value>
       <footprint>0_package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stm32g474re.pdf</datasheet>
-      <description>Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</description>
+      <description>STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</description>
       <fields>
         <field name="Supplier 1">Digikey</field>
         <field name="Supplier Part Number 1">497-STM32G474RET3-ND</field>
@@ -511,7 +529,7 @@
         <field name="Manufacturer Part Number">STM32G474RET3</field>
         <field name="Footprint">0_package_QFP:LQFP-64_10x10mm_P0.5mm</field>
         <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</field>
-        <field name="Description">Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</field>
+        <field name="Description">STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</field>
       </fields>
       <libsource lib="0_mcu" part="STM32G474RETx" description="STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64"/>
       <property name="Sheetname" value="MCU"/>
@@ -734,6 +752,74 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>24e4b1a5-3852-4568-b0f0-8aec38c04577</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>ffcfd1d4-c4ed-415b-ac33-3fc8b66b5055</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>0e7e2a57-2550-46d3-b158-1fafc111f7fd</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>5f26e25f-e92f-4174-8d4c-34fa9a2f8f88</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>4eb553de-fca9-4964-a41a-01750f572aec</tstamps>
     </comp>
     <comp ref="U3">
       <value>BNO055</value>
@@ -966,6 +1052,91 @@
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
       <tstamps>b2a38aa0-85de-46a0-bd65-63f9a9348315</tstamps>
     </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>4df69410-627b-4925-9a28-9c99ce26793f</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>71237d8d-751e-4abe-801d-398a93107c85</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>9e20110c-0acc-42c7-a141-b53398534c56</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>160a8ba0-20bd-4a9d-9a3e-049da19122cb</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>0_testpoint:TestPoint_Pad_D0.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">0_testpoint:TestPoint_Pad_D0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
+      <tstamps>1a478acb-7253-4b7b-a1d6-a86813f7a20f</tstamps>
+    </comp>
     <comp ref="U4">
       <value>LP2992IM5-3.3/NOPB</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -983,6 +1154,186 @@
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/df39f164-d0cb-4b4e-9c05-2a16fbd35e35/"/>
       <tstamps>8cb0fda8-f0cc-4340-b8ee-130b23cab7cb</tstamps>
+    </comp>
+    <comp ref="FD1">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>71da80a7-cd79-47d2-9280-328d5b28b085</tstamps>
+    </comp>
+    <comp ref="FD2">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>6aa01359-f8ca-4b14-a5a7-849acc06463b</tstamps>
+    </comp>
+    <comp ref="FD3">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>2fc05e6f-2002-444d-b969-0e252a70023d</tstamps>
+    </comp>
+    <comp ref="FD4">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>26b930e7-266f-48b4-8ced-0cd788a36f88</tstamps>
+    </comp>
+    <comp ref="FD5">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>40502730-0187-4bb4-b24f-471a93e035b2</tstamps>
+    </comp>
+    <comp ref="FD6">
+      <value>Fiducial</value>
+      <footprint>0_fiducials:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">0_fiducials:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>f6b9cdab-2c29-404c-8b62-e50fce9f8c15</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <description>M3 Hole</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description">M3 Hole</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>123978fe-f1ad-4ae6-bae2-78a1b682da6c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <description>M3 Hole</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description">M3 Hole</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>0f93fada-d3c8-459b-8b05-6540bfd4f81f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <description>M3 Hole</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description">M3 Hole</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>cbbcf3d6-9d5d-437e-9ccc-0a6b9b6525fd</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <description>M3 Hole</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description">M3 Hole</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes, Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/387c2d3b-892a-470b-ba39-cf83346b1b07/"/>
+      <tstamps>257af428-c0da-4df4-b90f-a82191c60e1c</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1085,6 +1436,24 @@
         <pin num="62" name="PB9" type="bidirectional"/>
         <pin num="63" name="VSS" type="power_in"/>
         <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x02">
@@ -1198,6 +1567,37 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="Sensor_Motion" part="BNO055">
       <description>Intelligent 9-axis absolute orientation sensor, LGA-28</description>
       <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</docs>
@@ -1250,11 +1650,17 @@
     <library logical="0_mcu">
       <uri>/github/workspace/lib/lib_sym/0_mcu.kicad_sym</uri>
     </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Sensor_Motion">
       <uri>/usr/share/kicad/symbols//Sensor_Motion.kicad_sym</uri>
@@ -1278,6 +1684,7 @@
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="28" pinfunction="VREF+" pintype="input"/>
@@ -1291,14 +1698,17 @@
     </net>
     <net code="2" name="/Project Architecture/Connectors/NRST">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="PG10" pintype="bidirectional"/>
     </net>
     <net code="3" name="/Project Architecture/Connectors/SWCLK">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="50" pinfunction="PA14" pintype="bidirectional"/>
     </net>
     <net code="4" name="/Project Architecture/Connectors/SWDIO">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="PA13" pintype="bidirectional"/>
     </net>
     <net code="6" name="/Project Architecture/IMU/BLP">
@@ -1315,19 +1725,23 @@
     </net>
     <net code="9" name="/Project Architecture/IMU/I2C2_SCL">
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="43" pinfunction="PA9" pintype="bidirectional"/>
       <node ref="U3" pin="19" pinfunction="COM1" pintype="bidirectional"/>
     </net>
     <net code="10" name="/Project Architecture/IMU/I2C2_SDA">
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="42" pinfunction="PA8" pintype="bidirectional"/>
       <node ref="U3" pin="20" pinfunction="COM0" pintype="bidirectional"/>
     </net>
     <net code="11" name="/Project Architecture/IMU/IMU_INT">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="45" pinfunction="PA11" pintype="bidirectional"/>
       <node ref="U3" pin="14" pinfunction="INT" pintype="output"/>
     </net>
     <net code="12" name="/Project Architecture/IMU/IMU_~{RESET}">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="44" pinfunction="PA10" pintype="bidirectional"/>
       <node ref="U3" pin="11" pinfunction="~{RESET}" pintype="input"/>
     </net>
@@ -1368,11 +1782,16 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="VSS" pintype="power_in"/>
       <node ref="U1" pin="27" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U1" pin="31" pinfunction="VSS" pintype="power_in"/>
@@ -1530,36 +1949,6 @@
     </net>
     <net code="65" name="unconnected-(U1B-PF1-Pad6)">
       <node ref="U1" pin="6" pinfunction="PF1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="66" name="unconnected-(U3-BL_IND-Pad10)">
-      <node ref="U3" pin="10" pinfunction="BL_IND" pintype="output+no_connect"/>
-    </net>
-    <net code="67" name="unconnected-(U3-PIN1-Pad1)">
-      <node ref="U3" pin="1" pinfunction="PIN1" pintype="no_connect"/>
-    </net>
-    <net code="68" name="unconnected-(U3-PIN7-Pad7)">
-      <node ref="U3" pin="7" pinfunction="PIN7" pintype="no_connect"/>
-    </net>
-    <net code="69" name="unconnected-(U3-PIN8-Pad8)">
-      <node ref="U3" pin="8" pinfunction="PIN8" pintype="no_connect"/>
-    </net>
-    <net code="70" name="unconnected-(U3-PIN12-Pad12)">
-      <node ref="U3" pin="12" pinfunction="PIN12" pintype="no_connect"/>
-    </net>
-    <net code="71" name="unconnected-(U3-PIN13-Pad13)">
-      <node ref="U3" pin="13" pinfunction="PIN13" pintype="no_connect"/>
-    </net>
-    <net code="72" name="unconnected-(U3-PIN21-Pad21)">
-      <node ref="U3" pin="21" pinfunction="PIN21" pintype="no_connect"/>
-    </net>
-    <net code="73" name="unconnected-(U3-PIN22-Pad22)">
-      <node ref="U3" pin="22" pinfunction="PIN22" pintype="no_connect"/>
-    </net>
-    <net code="74" name="unconnected-(U3-PIN23-Pad23)">
-      <node ref="U3" pin="23" pinfunction="PIN23" pintype="no_connect"/>
-    </net>
-    <net code="75" name="unconnected-(U3-PIN24-Pad24)">
-      <node ref="U3" pin="24" pinfunction="PIN24" pintype="no_connect"/>
     </net>
   </nets>
 </export>
