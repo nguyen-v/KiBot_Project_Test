@@ -876,7 +876,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -912,7 +912,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
           "show": true
@@ -1037,6 +1037,10 @@
     [
       "df39f164-d0cb-4b4e-9c05-2a16fbd35e35",
       "Connectors"
+    ],
+    [
+      "387c2d3b-892a-470b-ba39-cf83346b1b07",
+      "Holes, Fiducials"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",

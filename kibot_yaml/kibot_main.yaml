@@ -169,9 +169,6 @@ import:
 
   # Preflights =================================================================
 
-  # Update XML (this is used for the automated ToC in the schematic)
-  - file: kibot_pre_update_xml.yaml
-
   # Set text variables
   - file: kibot_pre_set_text_variables.yaml
     definitions:
@@ -528,11 +525,11 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: KiBot Project Test
-  BOARD_NAME: Random Board
+  PROJECT_NAME: Project Name
+  BOARD_NAME: Board Name
 
-  COMPANY: Company
-  DESIGNER: Vincent Nguyen
+  COMPANY: Company Name
+  DESIGNER: Author
 
   LOGO: 'Logos/dummy_logo.png'
   GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'

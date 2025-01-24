@@ -2655,22 +2655,16 @@
 		(uuid "17d6abce-defb-4816-bfb5-c1d980637c0a")
 	)
 	(junction
-		(at 255.27 55.88)
+		(at 257.81 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ea39c19-6e1a-466c-aa59-c152e86dd03e")
 	)
 	(junction
-		(at 245.11 74.93)
+		(at 247.65 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2323108c-ad86-4d64-bc32-74039c648956")
-	)
-	(junction
-		(at 255.27 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45c2265c-f4cd-4d5f-9b74-21db95358d15")
+		(uuid "3a9a3a3b-857f-43b6-b213-ae1d4bfbb7b4")
 	)
 	(junction
 		(at 81.28 100.33)
@@ -2695,6 +2689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c0d0733-9cc6-4575-ac69-8a5a24042294")
+	)
+	(junction
+		(at 257.81 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "629ee008-059e-4545-8211-728d18ea2298")
 	)
 	(junction
 		(at 91.44 83.82)
@@ -3019,16 +3019,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 74.93) (xy 264.16 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02325406-9f1d-4584-90ca-fd0a6c4d9800")
-	)
-	(wire
-		(pts
 			(xy 44.45 97.79) (xy 44.45 100.33)
 		)
 		(stroke
@@ -3329,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 55.88) (xy 255.27 59.69)
+			(xy 257.81 55.88) (xy 257.81 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 67.31) (xy 255.27 72.39)
+			(xy 257.81 67.31) (xy 257.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 245.11 74.93)
+			(xy 232.41 74.93) (xy 247.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3459,16 +3449,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 72.39) (xy 264.16 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef92eb4-6c5a-4868-baeb-1102f3492f72")
-	)
-	(wire
-		(pts
 			(xy 81.28 113.03) (xy 64.77 113.03)
 		)
 		(stroke
@@ -3526,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "7d2e4712-fa40-4fdc-b4bc-3517687fecb4")
+	)
+	(wire
+		(pts
+			(xy 247.65 74.93) (xy 264.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e84d27f-ecf9-48b3-8025-cf16175cf2b2")
 	)
 	(bus
 		(pts
@@ -3609,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 55.88) (xy 245.11 59.69)
+			(xy 247.65 55.88) (xy 247.65 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +3729,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 67.31) (xy 245.11 74.93)
+			(xy 257.81 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaec9e5-5363-4783-a476-970dccaad017")
+	)
+	(wire
+		(pts
+			(xy 247.65 67.31) (xy 247.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 72.39) (xy 255.27 72.39)
+			(xy 232.41 72.39) (xy 257.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 53.34) (xy 255.27 55.88)
+			(xy 257.81 53.34) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3889,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 55.88) (xy 255.27 55.88)
+			(xy 247.65 55.88) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4094,14 +4094,14 @@
 		(uuid "f25578fd-4ab6-4599-95bc-eaa8a509f479")
 	)
 	(label "I2C2_SCL"
-		(at 242.57 74.93 180)
+		(at 234.95 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Arial")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "11cc956f-d426-4155-9e96-5431e14b54d4")
 	)
@@ -4166,14 +4166,14 @@
 		(uuid "cd5ca4b3-44e0-4568-96b7-afff9d66fe40")
 	)
 	(label "I2C2_SDA"
-		(at 242.57 72.39 180)
+		(at 234.95 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Arial")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d194f844-179c-49c2-94ba-d476f1cd323c")
 	)
@@ -4280,7 +4280,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 63.5 0)
+		(at 257.81 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4289,7 +4289,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ede8ed8-ae16-41fd-ac27-996b7ecd9e63")
 		(property "Reference" "R2"
-			(at 257.81 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4299,7 +4299,7 @@
 			)
 		)
 		(property "Value" "2k 1%"
-			(at 257.81 64.77 0)
+			(at 260.35 64.77 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4309,7 +4309,7 @@
 			)
 		)
 		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
-			(at 253.492 63.5 90)
+			(at 256.032 63.5 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4339,7 +4339,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "P2.00KLCT-ND"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4359,7 +4359,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -4369,7 +4369,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-2RKF2001X"
-			(at 255.27 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5415,7 +5415,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 63.5 0)
+		(at 247.65 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5424,7 +5424,7 @@
 		(fields_autoplaced yes)
 		(uuid "638a40d9-3506-4f6f-9080-eabeb502e4cb")
 		(property "Reference" "R1"
-			(at 247.65 62.23 0)
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5434,7 +5434,7 @@
 			)
 		)
 		(property "Value" "2k 1%"
-			(at 247.65 64.77 0)
+			(at 250.19 64.77 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
-			(at 243.332 63.5 90)
+			(at 245.872 63.5 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5454,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5464,7 +5464,7 @@
 			)
 		)
 		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5474,7 +5474,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5484,7 +5484,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "P2.00KLCT-ND"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-2RKF2001X"
-			(at 245.11 63.5 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5776,7 +5776,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 255.27 53.34 0)
+		(at 257.81 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +5785,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b415f91-91ef-4a4d-9be9-cf646a7ea91d")
 		(property "Reference" "#PWR09"
-			(at 255.27 57.15 0)
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 255.27 48.26 0)
+			(at 257.81 48.26 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 53.34 0)
+			(at 257.81 53.34 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 53.34 0)
+			(at 257.81 53.34 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -5824,7 +5824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 255.27 53.34 0)
+			(at 257.81 53.34 0)
 			(effects
 				(font
 					(face "Times New Roman")

@@ -74,6 +74,21 @@
 		)
 		(uuid "3fe93b11-0ea5-4ec1-8ac3-7c370ad99d67")
 	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 276.86 166.37 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "98021beb-7c9d-4575-8b77-01bea1100e11")
+	)
 	(text "Page 5"
 		(exclude_from_sim no)
 		(at 276.86 135.89 0)
@@ -103,6 +118,47 @@
 			(href "#4")
 		)
 		(uuid "f04f874a-d252-4474-87f2-c34bbb094a4c")
+	)
+	(sheet
+		(at 241.3 147.32)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "387c2d3b-892a-470b-ba39-cf83346b1b07")
+		(property "Sheetname" "Holes, Fiducials"
+			(at 241.3 146.2909 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Holes, Fiducials.kicad_sch"
+			(at 241.3 168.2246 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiBot_Project_Test"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 147.32 116.84)
