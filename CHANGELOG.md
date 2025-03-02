@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+-   Moved the SWCLK trace away.
+
 ## [1.0.0] - 2025-03-02
 
 ### Added
