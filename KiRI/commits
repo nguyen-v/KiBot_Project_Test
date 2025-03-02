@@ -1,4 +1,2 @@
 _local_|2025-03-02|root|Local changes not committed|False|True
-ace2c6d|2025-03-02|Vincent Nguyen|[PCB] Checked version|False|True
-2baca11|2025-03-02|Vincent Nguyen|[PCB/Sch] Preliminary PCB layout|True|True
-77e9e33|2025-01-24|Vincent Nguyen|[Schematic][Added] Mounting holes, Testpoints, Fiducials|True|False
+7ba06dd|2025-03-02|Nguyen Vincent|Merge pull request #1 from nguyen-v/dev|True|True
