@@ -527,49 +527,6 @@
 		)
 		(uuid "e5d70b8d-d644-4902-89bf-9023f5660e0e")
 	)
-	(text "Flexible I/O worked examples"
-		(exclude_from_sim no)
-		(at 265.43 254 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://jpieper.com/2022/06/30/flexible-i-o-worked-examples/")
-		)
-		(uuid "16842e9f-eef2-418b-80ee-4eca09c5cd4a")
-	)
-	(text "References:"
-		(exclude_from_sim no)
-		(at 265.43 250.19 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca73a951-c39c-4a3c-9e12-06e6bc2f3311")
-	)
-	(text "Flexible I/O source configuration"
-		(exclude_from_sim no)
-		(at 265.43 256.54 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://jpieper.com/2022/06/28/flexible-i-o-source-configuration/")
-		)
-		(uuid "ff128f57-01dd-404e-9bb2-8208299d438c")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 110.49 86.36 0)

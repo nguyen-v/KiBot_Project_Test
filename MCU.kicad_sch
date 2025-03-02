@@ -4130,7 +4130,7 @@
 		(uuid "679e59df-6c5a-442f-8ec3-0c3cf09ac09d")
 	)
 	(label "IMU_INT"
-		(at 234.95 80.01 0)
+		(at 234.95 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4142,7 +4142,7 @@
 		(uuid "73659c22-1546-4b93-a85b-303689a26294")
 	)
 	(label "IMU_~{RESET}"
-		(at 234.95 77.47 0)
+		(at 234.95 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4151,7 +4151,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9dbf817b-c9d1-48b7-94dd-2e5550cc03e5")
+		(uuid "980bf095-a1dc-4d4d-881f-cdc06cac5e86")
 	)
 	(label "SWDIO"
 		(at 186.69 52.07 0)
