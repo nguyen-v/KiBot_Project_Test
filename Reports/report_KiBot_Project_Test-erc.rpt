@@ -1,0 +1,15 @@
+ERC report (2025-03-02T18:10:15+0000, Encoding UTF8)
+
+***** Sheet /
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/IMU/
+[lib_symbol_issues]: Symbol 'BNO055' has been modified in library 'Sensor_Motion'
+    ; warning
+    @(1.1303 mm, 0.8382 mm): Symbol U3 [BNO055]
+
+***** Sheet /Project Architecture/Connectors/
+***** Sheet /Project Architecture/Holes, Fiducials/
+***** Sheet /Revision History/
+ ** ERC messages: 1  Errors 0  Warnings 1

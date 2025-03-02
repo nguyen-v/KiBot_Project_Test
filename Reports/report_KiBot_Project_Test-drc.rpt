@@ -1,0 +1,22 @@
+** Drc report for KiBot_Project_Test.kicad_pcb **
+** Created on 2025-03-02T18:10:16+0000 **
+
+** Found 4 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(154.79 mm, 87.24 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(154.79 mm, 91.26 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(160.21 mm, 87.24 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(137.8 mm, 84.75 mm): Circle on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
