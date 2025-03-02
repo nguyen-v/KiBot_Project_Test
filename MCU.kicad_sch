@@ -4387,16 +4387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 257.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 257.81 63.5 0)
 			(effects
 				(font
@@ -4610,16 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 64.77 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 64.77 125.73 0)
 			(effects
 				(font
@@ -4831,16 +4813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -4981,16 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5131,16 +5095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 81.28 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 81.28 106.68 0)
 			(effects
 				(font
@@ -5269,16 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 110.49 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 110.49 78.74 0)
 			(effects
 				(font
@@ -5605,16 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -5747,16 +5684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 247.65 63.5 0)
 			(effects
 				(font
@@ -5897,16 +5825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 77.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -6047,16 +5966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 27.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -6268,16 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 81.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 81.28 125.73 0)
 			(effects
 				(font
@@ -6406,16 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 214.63 85.09 0)
 			(effects
 				(font
@@ -6957,16 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 81.28 63.5 0)
 			(effects
 				(font

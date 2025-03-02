@@ -2655,16 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 160.02 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -2752,16 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 215.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 215.9 77.47 0)
 			(effects
 				(font
@@ -2895,16 +2877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 152.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -3045,16 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -3268,16 +3232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 85.09 102.87 0)
 			(effects
 				(font
@@ -3418,16 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -3568,16 +3514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 132.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 132.08 102.87 0)
 			(effects
 				(font
@@ -3665,16 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 215.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 215.9 85.09 0)
 			(effects
 				(font
@@ -3832,16 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -3979,16 +3898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 148.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 148.59 102.87 0)
 			(effects
 				(font
@@ -4118,16 +4028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 113.03 83.82 0)
 			(effects
 				(font
@@ -4416,16 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -4562,16 +4454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -4702,16 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -4799,16 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " ""
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Nubmer" ""
+		(property "Supplier Part Number" ""
 			(at 215.9 73.66 0)
 			(effects
 				(font
