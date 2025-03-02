@@ -2211,6 +2211,18 @@
 		)
 		(uuid "6dc368b0-3ee9-4b81-9bc5-e15498dbb9f4")
 	)
+	(label "ADJ"
+		(at 139.7 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73e25a6a-ace8-4809-8d34-a89da990936f")
+	)
 	(label "NRST"
 		(at 205.74 80.01 0)
 		(fields_autoplaced yes)
