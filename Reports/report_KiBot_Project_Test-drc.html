@@ -1731,14 +1731,14 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
 <tr>
  <td class="cell-info">
    <b>PCB</b>: KiBot_Project_Test<br>
-   <b>Revision</b>: 1.0.0<br>
-   <b>Date</b>: 2025-03-02T20:30:37+0000<br>
+   <b>Revision</b>: 1.0.0+ (Unreleased)<br>
+   <b>Date</b>: 2025-03-02T21:40:27+0000<br>
    <b>KiCad Version</b>: 8.0.8<br>
  </td>
  <td class="cell-stats">
    <b>Errors</b>: 0<br>
-   <b>Warnings</b>: 4<br>
-   <b>Total</b>: 4<br>
+   <b>Warnings</b>: 50<br>
+   <b>Total</b>: 50<br>
  </td>
 </tr>
 </table>
@@ -1771,6 +1771,248 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-warning">silk_over_copper</td>
    <td>Silkscreen clipped by solder mask</td>
    <td>@(137.8 mm, 84.75 mm): Circle on F.Silkscreen<br></td>
+  </tr>
+ </tbody>
+</table>
+<p class="subtitle">Schematic parity</p>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th>Type</th>
+   <th>Description</th>
+   <th>Details</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="4">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/CAP) doesn't match net given by schematic (+3V3).</td>
+   <td>@(158.445001 mm, 86.495 mm): Pad 1 [/Project Architecture/IMU/CAP] of C11 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="5">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C12 value (3.9pF) doesn't match symbol value (100n X7R 50V).</td>
+   <td>@(157.5 mm, 92.995 mm): Footprint C12<br></td>
+  </tr>
+  <tr id="6">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C12 footprint (Capacitor_SMD:C_0402_1005Metric) doesn't match that given by symbol (0_capacitor_smd:C_0402_1005_DensityHigh).</td>
+   <td>@(157.5 mm, 92.995 mm): Footprint C12<br></td>
+  </tr>
+  <tr id="7">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/XOUT32) doesn't match net given by schematic (/Project Architecture/IMU/CAP).</td>
+   <td>@(157.98 mm, 92.995 mm): Pad 1 [/Project Architecture/IMU/XOUT32] of C12 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="8">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/XIN32) doesn't match net given by schematic (/Project Architecture/IMU/XOUT32).</td>
+   <td>@(159.02 mm, 92.995 mm): Pad 1 [/Project Architecture/IMU/XIN32] of C13 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="9">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C14 value (100n X7R 50V) doesn't match symbol value (3.9pF).</td>
+   <td>@(138.6 mm, 91.75 mm): Footprint C14<br></td>
+  </tr>
+  <tr id="10">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C14 footprint (0_capacitor_smd:C_0402_1005_DensityHigh) doesn't match that given by symbol (Capacitor_SMD:C_0402_1005Metric).</td>
+   <td>@(138.6 mm, 91.75 mm): Footprint C14<br></td>
+  </tr>
+  <tr id="11">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (+3V3) doesn't match net given by schematic (/Project Architecture/IMU/XIN32).</td>
+   <td>@(138.2 mm, 91.75 mm): Pad 1 [+3V3] of C14 on L4 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="12">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/PS1) doesn't match net given by schematic (+3V3).</td>
+   <td>@(161.045 mm, 87.895 mm): Pad 1 [/Project Architecture/IMU/PS1] of R4 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="13">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (GND) doesn't match net given by schematic (/Project Architecture/IMU/BLP).</td>
+   <td>@(161.845 mm, 87.895 mm): Pad 2 [GND] of R4 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="14">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/PS0) doesn't match net given by schematic (/Project Architecture/IMU/PS1).</td>
+   <td>@(161.045 mm, 86.995 mm): Pad 1 [/Project Architecture/IMU/PS0] of R5 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="15">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (+3V3) doesn't match net given by schematic (/Project Architecture/IMU/PS0).</td>
+   <td>@(161.845 mm, 88.795 mm): Pad 1 [+3V3] of R6 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="16">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/BLP) doesn't match net given by schematic (GND).</td>
+   <td>@(161.045 mm, 88.795 mm): Pad 2 [/Project Architecture/IMU/BLP] of R6 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="17">
+   <td class="td-warning">missing_footprint</td>
+   <td>Missing footprint U2 (BNO055)</td>
+   <td></td>
+  </tr>
+  <tr id="18">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (VBUS) doesn't match net given by schematic (+3V3).</td>
+   <td>@(154.7 mm, 88.85 mm): Pad 1 [VBUS] of C15 on L4 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="19">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C16 value (1u X7R 25V) doesn't match symbol value (100n X7R 50V).</td>
+   <td>@(152.4 mm, 86.45 mm): Footprint C16<br></td>
+  </tr>
+  <tr id="20">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C16 footprint (0_capacitor_smd:C_0603_1608_DensityHigh) doesn't match that given by symbol (0_capacitor_smd:C_0402_1005_DensityHigh).</td>
+   <td>@(152.4 mm, 86.45 mm): Footprint C16<br></td>
+  </tr>
+  <tr id="21">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C17 value (10n X7R 100V) doesn't match symbol value (1u X7R 25V).</td>
+   <td>@(154.7 mm, 90.95 mm): Footprint C17<br></td>
+  </tr>
+  <tr id="22">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C17 footprint (0_capacitor_smd:C_0402_1005_DensityHigh) doesn't match that given by symbol (0_capacitor_smd:C_0603_1608_DensityHigh).</td>
+   <td>@(154.7 mm, 90.95 mm): Footprint C17<br></td>
+  </tr>
+  <tr id="23">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/Connectors/ADJ) doesn't match net given by schematic (VBUS).</td>
+   <td>@(154.7 mm, 91.35 mm): Pad 1 [/Project Architecture/Connectors/ADJ] of C17 on L4 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="24">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C18 value (4u7 X7R 16V) doesn't match symbol value (10n X7R 100V).</td>
+   <td>@(152.4 mm, 92.05 mm): Footprint C18<br></td>
+  </tr>
+  <tr id="25">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C18 footprint (0_capacitor_smd:C_0603_1608_DensityHigh) doesn't match that given by symbol (0_capacitor_smd:C_0402_1005_DensityHigh).</td>
+   <td>@(152.4 mm, 92.05 mm): Footprint C18<br></td>
+  </tr>
+  <tr id="26">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (+3V3) doesn't match net given by schematic (/Project Architecture/Connectors/ADJ).</td>
+   <td>@(151.8 mm, 92.05 mm): Pad 1 [+3V3] of C18 on L4 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="27">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint C19 value (100n X7R 50V) doesn't match symbol value (4u7 X7R 16V).</td>
+   <td>@(161.045 mm, 90.095001 mm): Footprint C19<br></td>
+  </tr>
+  <tr id="28">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>C19 footprint (0_capacitor_smd:C_0402_1005_DensityHigh) doesn't match that given by symbol (0_capacitor_smd:C_0603_1608_DensityHigh).</td>
+   <td>@(161.045 mm, 90.095001 mm): Footprint C19<br></td>
+  </tr>
+  <tr id="29">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>Footprint U3 value (BNO055) doesn't match symbol value (LP2992IM5-3.3/NOPB).</td>
+   <td>@(157.5 mm, 89.25 mm): Footprint U3<br></td>
+  </tr>
+  <tr id="30">
+   <td class="td-warning">footprint_symbol_mismatch</td>
+   <td>U3 footprint (Package_LGA:LGA-28_5.2x3.8mm_P0.5mm) doesn't match that given by symbol (Package_TO_SOT_SMD:SOT-23-5).</td>
+   <td>@(157.5 mm, 89.25 mm): Footprint U3<br></td>
+  </tr>
+  <tr id="31">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (VBUS).</td>
+   <td>@(159.75 mm, 90.9125 mm): Pad 1 [<no net>] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="32">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (+3V3) doesn't match net given by schematic (VBUS).</td>
+   <td>@(159.8875 mm, 89.5 mm): Pad 3 [+3V3] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="33">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/BLP) doesn't match net given by schematic (/Project Architecture/Connectors/ADJ).</td>
+   <td>@(159.8875 mm, 89.0 mm): Pad 4 [/Project Architecture/IMU/BLP] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="34">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad net (/Project Architecture/IMU/PS1) doesn't match net given by schematic (+3V3).</td>
+   <td>@(159.8875 mm, 88.499999 mm): Pad 5 [/Project Architecture/IMU/PS1] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="35">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(159.75 mm, 87.5875 mm): Pad 6 [/Project Architecture/IMU/PS0] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="36">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(158.25 mm, 87.5875 mm): Pad 9 [/Project Architecture/IMU/CAP] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="37">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(157.25 mm, 87.5875 mm): Pad 11 [/Project Architecture/IMU/IMU_~{RESET}] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="38">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.75 mm, 87.5875 mm): Pad 14 [/Project Architecture/IMU/IMU_INT] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="39">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.25 mm, 87.5875 mm): Pad 15 [GND] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="40">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.1125 mm, 88.499999 mm): Pad 16 [GND] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="41">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.1125 mm, 89.0 mm): Pad 17 [/Project Architecture/IMU/COM3] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="42">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.1125 mm, 89.5 mm): Pad 18 [GND] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="43">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.1125 mm, 90.000001 mm): Pad 19 [/Project Architecture/IMU/I2C2_SCL] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="44">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(155.25 mm, 90.9125 mm): Pad 20 [/Project Architecture/IMU/I2C2_SDA] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="45">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(157.75 mm, 90.9125 mm): Pad 25 [GND] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="46">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(158.25 mm, 90.9125 mm): Pad 26 [/Project Architecture/IMU/XOUT32] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="47">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(158.75 mm, 90.912501 mm): Pad 27 [/Project Architecture/IMU/XIN32] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="48">
+   <td class="td-warning">net_conflict</td>
+   <td>No corresponding pin found in schematic.</td>
+   <td>@(159.25 mm, 90.9125 mm): Pad 28 [+3V3] of U3 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="49">
+   <td class="td-warning">extra_footprint</td>
+   <td>Extra footprint</td>
+   <td>@(152.4 mm, 89.25 mm): Footprint U4<br></td>
   </tr>
  </tbody>
 </table>
