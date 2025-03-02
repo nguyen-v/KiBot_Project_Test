@@ -4,12 +4,77 @@
     <source>/github/workspace/KiBot_Project_Test.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 8.0.8+1</tool>
-    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
+
+2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.
+
+3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+4)	CONFORMAL COATING IS NOT REQUIRED.
+
+5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">Board Name</textvar>
     <textvar name="COMPANY">Company Name</textvar>
     <textvar name="DESIGNER">Author</textvar>
-    <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">dd657ee</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS
+	DRAWING FOR REFERENCE ONLY.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
+	FOR REFERENCE ONLY.
+
+4)	SURFACE FINISH: IMMERSION GOLD
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR BLACK.
+
+6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+
+7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
+	SOLDERMASK OPENED IN GERBER.
+
+8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+9)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY COMPANY.
+
+10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE				34.000 × 28.000 mm
+	BOARD THICKNESS		1.651 mm
+	TRACE WIDTH			0.200 mm
+	TRACE TO TRACE		0.200 mm
+	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (NPTH)		N/A mm
+	ANNULAR RING			0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE			0.254 mm
+
+11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
+
+12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
+    <textvar name="GIT_HASH_PCB">2baca11</textvar>
     <textvar name="GIT_HASH_SCH">77e9e33</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Project Name</textvar>
@@ -18,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">24-Jan-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-01-24</textvar>
+    <textvar name="RELEASE_DATE">02-Mar-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-03-02</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -66,7 +131,7 @@
     <textvar name="SHEET_NAME_7">Holes, Fiducials</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">DRAFT</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -640,6 +705,34 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>b7918570-4446-43f5-a225-d81da57136b2</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n X7R 50V</value>
+      <footprint>0_capacitor_smd:C_0402_1005_DensityHigh</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</datasheet>
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier Part Number 1">490-14514-1-ND</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM155R71H104KE02J</field>
+        <field name="Package">0402</field>
+        <field name="Footprint">0_capacitor_smd:C_0402_1005_DensityHigh</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</field>
+        <field name="Description">0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Supplier 1" value="Digikey"/>
+      <property name="Supplier Part Number 1" value="490-14514-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM155R71H104KE02J"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="IMU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>b52247d7-9d46-4796-b54c-e120e7f1dff7</tstamps>
     </comp>
     <comp ref="R3">
       <value>10k 1%</value>
@@ -1672,6 +1765,7 @@
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
@@ -1696,74 +1790,78 @@
       <node ref="U3" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="2" name="/Project Architecture/Connectors/NRST">
+    <net code="2" name="/Project Architecture/Connectors/ADJ">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="3" name="/Project Architecture/Connectors/NRST">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="PG10" pintype="bidirectional"/>
     </net>
-    <net code="3" name="/Project Architecture/Connectors/SWCLK">
+    <net code="4" name="/Project Architecture/Connectors/SWCLK">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="50" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="4" name="/Project Architecture/Connectors/SWDIO">
+    <net code="5" name="/Project Architecture/Connectors/SWDIO">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/Project Architecture/IMU/BLP">
+    <net code="7" name="/Project Architecture/IMU/BLP">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="~{BOOT_LOAD_PIN}" pintype="input"/>
     </net>
-    <net code="7" name="/Project Architecture/IMU/CAP">
+    <net code="8" name="/Project Architecture/IMU/CAP">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="CAP" pintype="passive"/>
     </net>
-    <net code="8" name="/Project Architecture/IMU/COM3">
+    <net code="9" name="/Project Architecture/IMU/COM3">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="COM3" pintype="input"/>
     </net>
-    <net code="9" name="/Project Architecture/IMU/I2C2_SCL">
+    <net code="10" name="/Project Architecture/IMU/I2C2_SCL">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="43" pinfunction="PA9" pintype="bidirectional"/>
       <node ref="U3" pin="19" pinfunction="COM1" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/Project Architecture/IMU/I2C2_SDA">
+    <net code="11" name="/Project Architecture/IMU/I2C2_SDA">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="42" pinfunction="PA8" pintype="bidirectional"/>
       <node ref="U3" pin="20" pinfunction="COM0" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Project Architecture/IMU/IMU_INT">
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="45" pinfunction="PA11" pintype="bidirectional"/>
-      <node ref="U3" pin="14" pinfunction="INT" pintype="output"/>
-    </net>
-    <net code="12" name="/Project Architecture/IMU/IMU_~{RESET}">
+    <net code="12" name="/Project Architecture/IMU/IMU_INT">
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="44" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="13" name="/Project Architecture/IMU/IMU_~{RESET}">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PA11" pintype="bidirectional"/>
       <node ref="U3" pin="11" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="13" name="/Project Architecture/IMU/PS0">
+    <net code="14" name="/Project Architecture/IMU/PS0">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="PS0" pintype="input"/>
     </net>
-    <net code="14" name="/Project Architecture/IMU/PS1">
+    <net code="15" name="/Project Architecture/IMU/PS1">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="PS1" pintype="input"/>
     </net>
-    <net code="15" name="/Project Architecture/IMU/XIN32">
+    <net code="16" name="/Project Architecture/IMU/XIN32">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="XIN32" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="/Project Architecture/IMU/XOUT32">
+    <net code="17" name="/Project Architecture/IMU/XOUT32">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="U3" pin="26" pinfunction="XOUT32" pintype="output"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="18" name="GND">
+    <net code="19" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1774,6 +1872,7 @@
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
@@ -1803,10 +1902,6 @@
       <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="25" pinfunction="GNDIO" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="19" name="Net-(U4-ADJ)">
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="U4" pin="4" pinfunction="ADJ" pintype="input"/>
     </net>
     <net code="20" name="VBUS">
       <node ref="C15" pin="1" pintype="passive"/>

@@ -23,6 +23,7 @@
  .color-ref th { text-align: left }
  .color-ref td { padding: 5px 20px; }
  .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
  .tg-sort-header::-moz-selection{background:0 0}
  .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
  .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
@@ -82,18 +83,18 @@
 <tr>
  <td class="cell-info">
    <b>Schematic</b>: KiBot_Project_Test<br>
-   <b>Variant</b>: DRAFT<br>
+   <b>Variant</b>: PRELIMINARY<br>
    <b>Revision</b>: + (Unreleased)<br>
    <b>Date</b>: 2025-01-12<br>
    <b>KiCad Version</b>: 8.0.8+1<br>
  </td>
  <td class="cell-stats">
-   <b>Component Groups</b>: 14<br>
-   <b>Component Count</b>: 29 (per PCB)<br>
+   <b>Component Groups</b>: 15<br>
+   <b>Component Count</b>: 31 (per PCB)<br>
 
-   <b>Fitted Components</b>: 29 (per PCB)<br>
+   <b>Fitted Components</b>: 31 (per PCB)<br>
    <b>Number of PCBs</b>: 1<br>
-   <b>Total Components</b>: 29 (for 1 PCBs)<br>
+   <b>Total Components</b>: 31 (for 1 PCBs)<br>
  </td>
 </tr>
 </table>
@@ -137,8 +138,8 @@
   </tr>
   <tr id="2">
    <td class="td-gen0">3</td>
-   <td class="td-gen0">10</td>
-   <td class="td-kicad0"><div id="C15"></div><div id="C14"></div><div id="C11"></div><div id="C10"></div><div id="C9"></div><div id="C8"></div><div id="C6"></div><div id="C3"></div><div id="C2"></div><div id="C1"></div>C1 C2 C3 C6 C8 C9 C10 C11 C14 C15</td>
+   <td class="td-gen0">11</td>
+   <td class="td-kicad0"><div id="C19"></div><div id="C15"></div><div id="C14"></div><div id="C11"></div><div id="C10"></div><div id="C9"></div><div id="C8"></div><div id="C6"></div><div id="C3"></div><div id="C2"></div><div id="C1"></div>C1 C2 C3 C6 C8 C9 C10 C11 C14 C15 C19</td>
    <td class="td-kicad0">100n X7R 50V</td>
    <td class="td-kicad0"><a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf</a></td>
    <td class="td-kicad0">C_0402_1005_DensityHigh</td>
@@ -237,35 +238,46 @@
   <tr id="11">
    <td class="td-gen1">12</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="U4"></div>U4</td>
-   <td class="td-kicad1">LP2992IM5-3.3/NOPB</td>
-   <td class="td-kicad1"><a href="https://www.ti.com/lit/ds/symlink/lp2992.pdf">https://www.ti.com/lit/ds/symlink/lp2992.pdf</a></td>
-   <td class="td-kicad1">SOT-23-5</td>
-   <td class="td-user1">Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</td>
+   <td class="td-kicad1"><div id="U3"></div>U3</td>
+   <td class="td-kicad1">BNO055</td>
+   <td class="td-kicad1"><a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf</a></td>
+   <td class="td-kicad1">LGA-28_5.2x3.8mm_P0.5mm</td>
+   <td class="td-user1">Intelligent 9-axis absolute orientation sensor, LGA-28</td>
    <td class="td-empty1"></td>
    <td class="td-empty1"></td>
   </tr>
   <tr id="12">
    <td class="td-gen0">13</td>
    <td class="td-gen0">1</td>
-   <td class="td-kicad0"><div id="U1"></div>U1</td>
-   <td class="td-kicad0">STM32G474RET3</td>
-   <td class="td-kicad0"><a href="https://www.st.com/resource/en/datasheet/stm32g474re.pdf">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</a></td>
-   <td class="td-kicad0">LQFP-64_10x10mm_P0.5mm</td>
-   <td class="td-user0">STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 58 GPIO, LQFP64</td>
+   <td class="td-kicad0"><div id="U4"></div>U4</td>
+   <td class="td-kicad0">LP2992IM5-3.3/NOPB</td>
+   <td class="td-kicad0"><a href="https://www.ti.com/lit/ds/symlink/lp2992.pdf">https://www.ti.com/lit/ds/symlink/lp2992.pdf</a></td>
+   <td class="td-kicad0">SOT-23-5</td>
+   <td class="td-user0">Micropower 250-mA Low-Noise Ultra-Low-Dropout Regulator</td>
    <td class="td-empty0"></td>
    <td class="td-empty0"></td>
   </tr>
   <tr id="13">
    <td class="td-gen1">14</td>
    <td class="td-gen1">1</td>
-   <td class="td-kicad1"><div id="Y1"></div>Y1</td>
-   <td class="td-kicad1">ECS-.327-7-12-C-TR9</td>
-   <td class="td-kicad1"><a href="https://ecsxtal.com/store/pdf/ECX_12.pdf">https://ecsxtal.com/store/pdf/ECX_12.pdf</a></td>
-   <td class="td-kicad1">Crystal_SMD_2012-2Pin_2.0x1.2mm</td>
-   <td class="td-empty1"></td>
-   <td class="td-empty1"></td>
-   <td class="td-empty1"></td>
+   <td class="td-kicad1"><div id="U1"></div>U1</td>
+   <td class="td-kicad1">STM32G474RET3</td>
+   <td class="td-kicad1"><a href="https://www.st.com/resource/en/datasheet/stm32g474re.pdf">https://www.st.com/resource/en/datasheet/stm32g474re.pdf</a></td>
+   <td class="td-kicad1">LQFP-64_10x10mm_P0.5mm</td>
+   <td class="td-user1">Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</td>
+   <td class="td-user1">STMicroelectronics</td>
+   <td class="td-user1">STM32G474RET3</td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen0">15</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Y1"></div>Y1</td>
+   <td class="td-kicad0">ECS-.327-7-12-C-TR9</td>
+   <td class="td-kicad0"><a href="https://ecsxtal.com/store/pdf/ECX_12.pdf">https://ecsxtal.com/store/pdf/ECX_12.pdf</a></td>
+   <td class="td-kicad0">Crystal_SMD_2012-2Pin_2.0x1.2mm</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
   </tr>
  </tbody>
 </table>
